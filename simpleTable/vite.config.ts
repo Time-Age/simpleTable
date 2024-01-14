@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '^/api/.*': {
-        target: 'http://localhost:8766/',
+        target: 'https://simple-table-eight.vercel.app/',
         changeOrigin: true,
       },
     },
